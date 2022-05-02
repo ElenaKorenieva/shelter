@@ -1,6 +1,6 @@
 @font-face {
     font-family: Georgia;
-    src: url(/fonts/Georgia.ttf);
+    src: url('/shelter/fonts/Georgia.ttf');
 }
 
 * {
@@ -22,7 +22,7 @@ html, body {
 .header-container {
     display: flex;
     flex-direction: column;
-    background: url('/assets/start-screen-background.png');
+    background: url('/shelter/assets/start-screen-background.png');
    }
 
 .header {
@@ -403,7 +403,7 @@ html, body {
 
 
 .footer {
-    background: url('/assets/footer-gradient-background.png');
+    background: url('/shelter/assets/footer-gradient-background.png');
 }
 
 .footer_wrapper {
